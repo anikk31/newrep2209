@@ -1,0 +1,21 @@
+name: massage
+on: [pull]
+
+jobs:
+  head-massage:
+    runs-on: ubuntu:latest
+    run: echo "ab aage dekho"
+      steps:
+        - name: "oiling"
+        - run: echo "step1 completed"
+        - name: "head ko massage krdo"
+        - run: echo "krdi"
+  thigh-massage:
+    runs-on: ubuntu:latest
+    run: echo "ab mza ayega"
+      steps:
+        - name: "shorts utaro"
+        - run: echo "hogya"
+        - name: "oiling shuru kro"
+        - run: echo "done" 
+  
